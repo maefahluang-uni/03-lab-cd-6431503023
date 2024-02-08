@@ -118,7 +118,7 @@ To allow Cloud Build to deploy to Cloud Run, you need to grant the Cloud Build s
 - enable Cloud Run Admin
 
 ## Try to run our CD workflow
-- Update something in the code or README.md, commit and push to github.
+- Update something in the code or README.md, commit and push to github
 - go to cloud build -> history, you should see a new build is triggered.
 - go to cloud run, you should see a new service is deployed. Its name is `lab-cd`.
 - click on the service, copy the url and open it in browser.
